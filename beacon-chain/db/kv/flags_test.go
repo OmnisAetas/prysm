@@ -14,7 +14,6 @@ import (
 
 func TestConfigureBlobRetentionEpoch(t *testing.T) {
 	params.SetupTestConfigCleanup(t)
-
 	app := cli.App{}
 	set := flag.NewFlagSet("test", 0)
 
